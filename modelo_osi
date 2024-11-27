@@ -1,0 +1,34 @@
+1. Camada Física
+Função: Trata da transmissão de dados em forma de sinais elétricos, ópticos ou de rádio no meio físico. Define os aspectos físicos do hardware de rede, como cabos, conectores e frequências.
+Exemplo: Cabos de rede, fibra óptica, conectores, padrões como USB e Bluetooth.
+2. Camada de Enlace de Dados
+Função: Garante a transmissão confiável entre dispositivos conectados na mesma rede local. Lida com o controle de erros e o acesso ao meio físico.
+Subcamadas:
+LLC (Logical Link Control): Gerencia o controle de fluxo e detecção de erros.
+MAC (Media Access Control): Gerencia o acesso ao meio físico.
+Exemplo: Ethernet, Wi-Fi, PPP.
+3. Camada de Rede
+Função: Responsável pelo endereçamento lógico e pelo roteamento de pacotes entre diferentes redes.
+Exemplo: Protocolos IPv4, IPv6, ICMP.
+4. Camada de Transporte
+Função: Garante a comunicação confiável entre sistemas finais, fragmentando os dados em segmentos e verificando que eles cheguem de forma completa e em ordem.
+Protocolos:
+TCP (Transmission Control Protocol): Orientado à conexão, garante confiabilidade.
+UDP (User Datagram Protocol): Não orientado à conexão, mais rápido e simples.
+5. Camada de Sessão
+Função: Estabelece, gerencia e encerra sessões entre aplicações. Sincroniza e organiza o diálogo entre dispositivos.
+Exemplo: NetBIOS, RPC (Remote Procedure Call).
+6. Camada de Apresentação
+Função: Traduz os dados para um formato compreensível pela camada de aplicação. Realiza tarefas como criptografia, compressão e conversão de dados.
+Exemplo: HTTPS, SSL/TLS, formatos como JPEG, GIF.
+7. Camada de Aplicação
+Função: Proporciona uma interface entre o usuário e a rede, permitindo que aplicações acessem serviços de rede.
+Exemplo: HTTP, FTP, DNS, SMTP.
+Camada	Função Principal	Exemplos
+7: Aplicação	Interface com o usuário	HTTP, FTP, DNS
+6: Apresentação	Tradução e criptografia	JPEG, HTTPS
+5: Sessão	Gerenciamento de sessões	NetBIOS, RPC
+4: Transporte	Entrega confiável de dados	TCP, UDP
+3: Rede	Roteamento de pacotes	IPv4, IPv6, ICMP
+2: Enlace de Dados	Comunicação entre nós locais	Ethernet, Wi-Fi
+1: Física	Transmissão de sinais	Cabos, Bluetooth
